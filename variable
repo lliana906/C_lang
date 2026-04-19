@@ -100,7 +100,7 @@ int main()
 
     green = 8; //할당 
     //같이 이루어져도되고 따로 해도됨 근데 할당작업이 필수로 필요하긴 함 
-    printf ("red1: %d\n", green);
+    printf ("green: %d\n", green);
 
     return 0; 
      
