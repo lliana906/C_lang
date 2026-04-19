@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+
+//char  1 byte
+//short 2 byte
+// int /float  4 byte
+//long / double  8byte
+
+
+int main(){
+
+    
+    printf ("%ld\n", sizeof(char) );
+    printf ("%ld\n", sizeof(short) );
+    printf ("%ld\n", sizeof(int) );
+    printf ("%ld\n", sizeof(long) );
+    printf ("%ld\n", sizeof(float) );
+    printf ("%ld\n", sizeof(double) );
+
+    //포인터 변수의 특징 
+    printf ("%ld\n", sizeof(char*) );
+    printf ("%ld\n", sizeof(short*) );
+    printf ("%ld\n", sizeof(int*) );
+    printf ("%ld\n", sizeof(long*) );
+    printf ("%ld\n", sizeof(float*) ); 
+    printf ("%ld\n", sizeof(double*) );
+
+
+    return 0;
+}
