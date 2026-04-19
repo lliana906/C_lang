@@ -10,3 +10,4 @@ int main()
     printf ("%-10d  %-10d\n", 62,23);  //좌측 정렬
     return 0;
 }
+
