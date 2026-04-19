@@ -1,0 +1,42 @@
+#include <stdio.h>
+
+int main()
+{
+    int red=1; 
+    int orange=0;
+    int yellow=1;
+    int green=0;
+    int blue=0;
+    int indigo=1;
+    int purple =0;
+
+    if(red > 0){
+        printf ("red :  %d\n", red);
+    }
+
+    if(orange){
+        printf ("orange :  %d\n", orange);
+    }
+
+    if(yellow){
+        printf ("yellow :  %d\n", yellow);
+    }
+
+    if(green){
+        printf ("green :  %d\n", green);
+    }
+
+    if(blue){
+        printf ("blue :  %d\n", blue);
+    }
+
+    if(indigo){
+        printf ("indigo :  %d\n", indigo);
+    }
+
+    if(purple){
+        printf ("red :  %d\n", purple);
+    }
+    //참인건만 결과 값이 도출 된다.
+    //참아니면 거짓을 0아니면 다 참이다.
+}
