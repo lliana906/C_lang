@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+
+//배열 차례대로 채워 진다.
+
+char data[6] = " hello"; //공간을 만들고 할당까지 한다.
+//1byte가 연속된 6개 공간에 할당이 되는 것이다. 
+
+int main()
+{
+    printf("%c \n", data[1]);   //문자
+    printf("%c \n", data[4]);
+    printf("%s \n", data);     //문자열
+    return 0;
+}
